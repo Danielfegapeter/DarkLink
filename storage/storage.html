@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkLink - File Storage</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Storage</h1>
+        <p>Upload and manage your files here.</p>
+        <div class="file-upload">
+            <input type="file" id="fileInput" multiple>
+            <button onclick="uploadFiles()">Upload Files</button>
+        </div>
+        <div id="file-list">
+            <!-- Uploaded files will be listed here -->
+        </div>
+    </div>
+    <script src="../js/storage.js"></script>
+</body>
+</html>
